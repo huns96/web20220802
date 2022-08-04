@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        h1 {
+            font-size: 2em;
+        }
+
+        p {
+            font-size: 2em;
+        }
+
+        /* group selector */
+        h1, p {
+            color: blue;
+        }
+
+        .note {
+            background-color: yellow;
+        }
+
+        h1.note {
+            text-decoration: underline;
+        }
+        /* p요소이면서 note 클래스인 요소들 선택 */
+        p.note {
+            border: 5px solid;
+        }
+
+        h1.note.fire {
+            font-size: 3em;
+            background-color: red;
+        }
+
+        h1#head4.special.note {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<!-- h1*5>lorem2^p*5>lorem3 -->
+<h1 class="note">Lorem, ipsum.</h1>
+<h1 class="note fire">Commodi, dicta?</h1>
+<h1 id="head3">Asperiores, obcaecati.</h1>
+<h1 id="head4" class="special note">Quis, ea!</h1>
+<h1>Magnam, possimus.</h1>
+<p class="note">Lorem, ipsum dolor.</p>
+<p>Nam, eaque explicabo?</p>
+<p>Vitae, expedita quasi.</p>
+<p>Dolorem, labore pariatur!</p>
+<p>Delectus, dolorum doloremque.</p>
+</body>
+</html>
