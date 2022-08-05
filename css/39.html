@@ -16,18 +16,71 @@
         }
 
         .left > div {
-            margin-bottom: 40px;
+            margin-bottom: 30px;
         }
 
         .container > .right {
             flex: 1;
             background-color: rgb(112, 104, 104);
-            text-align: center;
+            text-align: left;
             font-size: 15px;
         }
 
         .right > div {
             margin-bottom: 20px;
+        }
+
+        .box1 {
+            border: 3px solid green;
+            background-color: green;
+            width: 200px;
+            height: 50px;
+            border-radius: 100px;
+            margin: auto;
+            text-align: center;
+            line-height: 50px;
+        }
+
+        .box2 {
+            border: 3px solid beige;
+            background-color: beige;
+            width: 200px;
+            height: 50px;
+            border-radius: 100px;
+            margin: auto;
+            text-align: center;
+            line-height: 50px;
+        }
+
+        .box3 {
+            border: 3px solid #242424;
+            background-color: #242424;
+            width: 200px;
+            height: 50px;
+            border-radius: 100px;
+            margin: auto;
+            text-align: center;
+            line-height: 50px;
+        }
+
+        .box4 {
+            border: 3px solid rgb(255, 154, 171);
+            background-color: rgb(255, 154, 171);
+            width: 200px;
+            height: 50px;
+            border-radius: 100px;
+            margin: auto;
+            text-align: center;
+            line-height: 50px;
+        }
+
+        .textbox {
+            margin-left: 20px;
+            padding-left: 10px;
+            background-color: white;
+            border-left: 3px solid green;
+            width: 450px;
+            height: 400px;
         }
 
        
@@ -36,57 +89,43 @@
 <body>
     <div class="container">
     <div class="left">
-        <div style="font-size: 40px;">
+        <div style="font-size: 40px; margin-top: 20px;">
             HTML
         </div>
         <div style="font-size: 15px;">
             The language for building web pages
         </div>
-        <div>
+        <div class="box1">
             Learn HTML
         </div>
-        <div>
+        <div class="box2">
             Video Tutorial
         </div>
-        <div>
+        <div class="box3" style="color: white;">
             HTML Reference
         </div>
-        <div>
+        <div class="box4">
             Buy Certificate
         </div>
     </div>
 
     <div class="right">
-        <div style="font-size: 40px;">
+        <div style="font-size: 40px; text-align: center; margin-top: 20px;">
             HTML Example
         </div>
-        <div>
-            Velit, quisquam?
+        <div class="textbox">
+            <p>&lt;!DOCTYPE html&gt;</p>
+            <p>&lt;html&gt;</p>
+            <p>&lt;title>HTML Tutorial&lt;/title&gt</p>
+            <p>&lt;body&gt</p>
+                <br>
+            <p>&lt;h1&gtThis is a heading&lt;/h1&gt</p>
+            <p>&lt;p>&gtThis is a paragraph.&lt;/p&gt</p>
+            <br>
+            <p>&lt;/body&gt</p>
+            <p>&lt;/html&gt</p>
         </div>
-        <div>
-            Cum, repudiandae!
-        </div>
-        <div>
-            Cum, optio!
-        </div>
-        <div>
-            Voluptatum, pariatur!
-        </div>
-        <div>
-            Architecto, laudantium.
-        </div>
-        <div>
-            Est, facilis?
-        </div>
-        <div>
-            Laboriosam, quod.
-        </div>
-        <div>
-            Sapiente, fuga?
-        </div>
-        <div>
-            Perspiciatis, magnam.
-        </div>
+        
     </div>
 </div>
 </body>
